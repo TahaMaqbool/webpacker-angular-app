@@ -1,0 +1,26 @@
+{
+  "name": "webpacker-angular-app",
+  "private": true,
+  "dependencies": {
+    "@angular/common": "^7.1.4",
+    "@angular/compiler": "^7.1.4",
+    "@angular/core": "^7.1.4",
+    "@angular/platform-browser": "^7.1.4",
+    "@angular/platform-browser-dynamic": "^7.1.4",
+    "@rails/webpacker": "3.5",
+    "core-js": "^2.6.1",
+    "rxjs": "^6.3.3",
+    "ts-loader": "3.5.0",
+    "typescript": "^3.2.2",
+    "zone.js": "^0.8.26"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "html-loader": "^0.5.5",
+    "resolve-url-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "to-string-loader": "^1.1.5",
+    "webpack-dev-server": "2.11.2",
+    "webpack-merge": "^4.2.1"
+  }
+}
