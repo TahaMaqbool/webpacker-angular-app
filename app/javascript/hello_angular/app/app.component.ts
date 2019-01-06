@@ -13,10 +13,17 @@ export class AppComponent {
   constructor(private http: HttpClient){}
 
   name = 'Angular!';
+  books: [];
 
   changeName() {
         this.http.get('/hello_angular/name').subscribe(data => {
             this.name = data['name'];
         });
     }
+
+  test() {
+      this.http.get('/books').subscribe(data => {
+          this.books = data['books'];
+      });
+  }
 }
