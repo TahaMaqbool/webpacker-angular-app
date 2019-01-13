@@ -21,9 +21,7 @@ export class AppComponent {
         });
     }
 
-  test() {
-      this.http.get('/books').subscribe(data => {
-          this.books = data['books'];
-      });
-  }
+    routeToBooks() {
+        window.location.assign("/books")
+    }
 }

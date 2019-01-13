@@ -1,19 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { BooksComponent } from './books.component';
-import {RatingsModule} from "../app_ratings/ratings.module";
+import { RatingsComponent } from './ratings.component';
 import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
-    BooksComponent
+      RatingsComponent
   ],
   imports: [
       BrowserModule,
-      HttpClientModule,
-      RatingsModule
+      HttpClientModule
   ],
+  exports: [RatingsComponent],
   providers: [],
-  bootstrap: [BooksComponent]
+  bootstrap: [RatingsComponent]
 })
-export class BooksModule { }
+export class RatingsModule { }
